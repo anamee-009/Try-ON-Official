@@ -26,13 +26,16 @@
         <ul class="nav-links">
           <i class="uil uil-times navCloseBtn"></i>
           <li><a href="index.html">Home</a></li>
-          <button class="openbtn" onclick="openNav()">Men</button>
-          <button class="openbtn" onclick="openNav()">Women</button>
-          <button class="openbtn" onclick="openNav()">Kids</button>
+          <button class="openbtn" onclick="openNav(event)">Men</button>
+          <button class="openbtn" onclick="openNav(event)">Women</button>
+          <button class="openbtn" onclick="openNav(event)">Kids</button>
         </ul>
 
-        <div id="mySidebar" class="sidebar" style="width: 100%">
-          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        <div id="mySidebar" class="sidebar">
+          <a
+            href="javascript:void(0)"
+            class="closebtn"
+            onclick="closeNav(event)"
             >×</a
           >
           <a href="#">New Arrival</a>
@@ -137,7 +140,8 @@
     </div>
 
     <script>
-      function openNav() {
+      function openNav(event) {
+        event.preventDefault();
         document.getElementById("mySidebar").style.width = "250px";
         document.getElementById("main").style.marginRight = "250px";
       }
