@@ -101,7 +101,7 @@ h1{
     
     }
      a :hover{
-        color: blue;
+        color: #457f9c;
     }
 
     .row a{
@@ -113,7 +113,7 @@ h1{
     font-weight: 500;
     font-size: 20px;
     /* line-height: 20px; */
-    color: #000000;
+    color: #0C4561;
     border-left:  1px solid rgba(106, 98, 98, 0.9);
 
     color: #6A6262;
@@ -124,7 +124,7 @@ float: none;
   /* line-height: 25px; */
     }
     .row a:hover{
-        color: #000000;
+        color: #0C4561;
     }
     .row:hover .row {
         display: block;

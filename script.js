@@ -3,7 +3,8 @@ const nav = document.querySelector(".nav"),
   navOpenBtn = document.querySelector(".navOpenBtn"),
   navCloseBtn = document.querySelector(".navCloseBtn");
 
-searchIcon.addEventListener("click", () => {
+searchIcon.addEventListener("click", (event) => {
+  event.preventDefault()
   nav.classList.toggle("openSearch");
   nav.classList.remove("openNav");
   if (nav.classList.contains("openSearch")) {
