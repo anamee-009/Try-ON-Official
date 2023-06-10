@@ -1,0 +1,188 @@
+@import url('https://fonts.cdnfonts.com/css/nunito');
+
+body{
+    margin: 0;
+  padding: 0;
+  font-family: 'Nunito', sans-serif;
+  background: url(images/Group.png) no-repeat;
+  background-size: cover;
+  overflow: hidden;
+
+}
+
+.logo{
+    width: 280px;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+  }
+
+  .img{
+   width: 280px;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%,-50%);
+   
+
+   
+  }
+  .logo-1{
+    text-align: center;
+    padding: 20px;
+  }
+  p{
+    color: #38706C;
+    font-size: 26px;
+    text-align: center;
+    line-height: 30px;
+  }
+  .logo-2{
+    text-align: center;
+    padding: 20px;
+  }
+  .logo-3{
+    text-align: center;
+    padding: 20px;
+  }
+  .submit{
+    text-align: center;
+    padding: 20px;
+  }
+  .submit button{
+    background-color: #00AD4D;
+    color: white;
+    border-radius: 10px;
+    border-color:#00AD4D;
+    height: 56px;
+    font-size: 26px;
+
+  }
+  h1{
+    text-align: center;
+    padding: 40px;
+    color: #38706C;
+    font-size: 5em;
+  }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  /* body{
+    background: url(images/Mobile.psd.png) no-repeat;
+    background-size: cover; 
+  } */
+  .logo {
+    background: red;
+    top: 33%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+  }
+  .img{
+    background: blue;
+    top: 75%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+  }
+  .main{
+    margin-top: 35%;
+    text-align: center;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  /* body{
+    background: url(images/Mobile.psd.png) no-repeat;
+     background-size: cover; 
+  } */
+  .logo {
+    background: green;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+  }
+  .img{
+    background: blue;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%,-50%);
+  }
+  .main{
+    margin-top: 35%;
+    text-align: center;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  /* .body{
+    background: url(images/Mobile.psd.png) no-repeat;
+    background-size: cover;
+  } */
+  .logo {
+    background: blue;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+  }
+  .img{
+    background: blue;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%,-50%);
+  }
+  .main{
+    margin-top: 35%;
+    text-align: center;
+  }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  /* .body{
+    background: url(images/Group.png) no-repeat;
+    background-size: cover;
+  } */
+  .logo {
+    background: orange;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+  }
+  .img{
+    background: orange;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%,-50%);
+  }
+
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  /* .body{
+    background: url(images/Group.png) no-repeat;
+    background-size: cover;
+  } */
+  .logo {
+    background: pink;
+    width: 280px;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+  }
+  .img{
+    width: 280px;
+    background: pink;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%,-50%);
+
+  }
+
+
+ 
+}

@@ -1,0 +1,50 @@
+@import url('https://fonts.cdnfonts.com/css/nunito');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100%;
+}
+.container{
+   height: 100%;
+   width: 100%;
+   background-image: url(images/Rectangle\ \(1\).png);
+   background-position: center;
+   background-size: cover;
+   position: absolute;
+ 
+}
+
+.logo-1{
+    text-align: center;
+    padding: 20px;
+  }
+  p{
+    color: #38706C;
+    font-size: 26px;
+    text-align: center;
+    line-height: 30px;
+  }
+  .logo-2{
+    text-align: center;
+    padding: 20px;
+  }
+  .logo-3{
+    text-align: center;
+    padding: 20px;
+  }
+  .submit{
+    text-align: center;
+    padding: 20px;
+  }
+  .submit button{
+    background-color: #00AD4D;
+    color: white;
+    border-radius: 10px;
+    border-color:#00AD4D;
+    height: 50px;
+    font-size: 26px;
+
+  }
